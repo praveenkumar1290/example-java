@@ -6,7 +6,17 @@ public class HelloWorld {
 		if (bigger) {
 			return "Hello Universe!";
 		} else {
-			return "Hello World2!";
+			return "Hello World!";
+		}
+	}
+}
+public class HelloWorld1 {
+
+	public String getMessage(boolean bigger) {
+		if (bigger) {
+			return "Hello Universe!";
+		} else {
+			return "Hello World!";
 		}
 	}
 
